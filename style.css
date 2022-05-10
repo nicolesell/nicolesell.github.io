@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    background-color: #F4EFEB;
+    color:#677E69;
+}
+
+button {
+    margin-left: 12%;
+    height: 40px;
+    width: 150px;
+    background-color: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #677E69;
+    border: 2px solid #677E69;
+    border-radius: 10px;
+    padding: 1% 2%;
+    opacity:0.6;
+}
+
+button:hover{
+    opacity:1;
+}
+
+header{
+    margin-top: 8%;
+    min-height: 400px;
+}
+
+header img{
+    max-width: 200px;
+    max-height: 600px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    padding: 1% 2%;
+    font-weight: light;
+    font-size: 64px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 32px;
+    padding: 1% 2%;
+    color: #8FAA92;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    top: 0;
+    height: 60px;
+    display: flex;
+    padding: 1% 2%;
+    width:100%;
+    border: 1px solid #677E69;
+    position:fixed;
+    overflow: hidden;
+    background-color: #F4EFEB;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-left:40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home{
+    margin-left: 0px;
+}
+
+nav a{
+    color: #677E69;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: #677E69;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+nav ul li:hover::after{
+    width: 100%;
+}
+
+
+.container{
+    display: flex;
+    max-width: 1100px;
+    margin:0 auto;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+
+.skills .container {
+    margin-top: 2%;
+}
+
+.portfolio .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio a{
+    padding: 1% 2%;
+    text-decoration: none;
+}
+
+.portfolio h1{
+    padding-left: 0;
+    display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.portfolio h1:after{
+    content: '';
+    border-top: 1px solid;
+    margin-left: 20px;
+	flex: 1 0 0;
+    color:#677E69;
+}
+
+header .container{
+    align-items: center;
+}
+
+.research, .internships, .gd{  
+    width: 100%;
+    height:260px;
+    padding: 1% 2%;
+    margin: 20px;
+    background-color:#8FAA92;
+    color:#F4EFEB;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+} 
+
+.internships img, .research img, .gd img{
+    width: 70%;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+.portfolio a{
+    position: absolute;
+    bottom: 10px;
+    left:0;
+}
+
+hr{
+    display: inline-block;
+    width: 100%;
+    height: 2px
+}   
+
+.contact h1{
+    display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin-top: 50px;
+}
+
+.contact h1:after{
+    content: '';
+    border-top: 1px solid;
+    margin-left: 20px;
+	flex: 1 0 0;
+    color:#677E69;
+}
+.contact img{
+    max-width: 260px;
+}
+
+.contact .container{
+    flex-direction: column;
+}
+
+.contact .containerout{
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+    margin-top: 20px;
+    display: flex;
+    width: 220px;
+    height: 350px;
+    padding: 1% 2%;
+    background-color: #8FAA92;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    align-items: center;
+}
+
+.quote h2{
+    text-align: center;
+    padding: 15px;
+    color:#F4EFEB;
+    font-weight: lighter;
+    line-height: 1;
+}
+
+.skills-box{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height:450px;
+    border:1px solid #677E69;
+}
+
+.skills-box h2{
+    text-align: center;
+    padding: 2% 5%;
+}
+.skills-box h3{
+    padding-left: 5%;
+    color:#8FAA92;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.skills-box ul{
+    padding-left: 20%;
+    color:#8FAA92
+}
+
+footer{
+    height: 100px;
+}

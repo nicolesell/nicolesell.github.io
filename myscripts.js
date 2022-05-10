@@ -1,0 +1,1 @@
+document.getElementById("contact-button").onclick = window.location="#contact";
