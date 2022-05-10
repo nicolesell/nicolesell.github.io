@@ -1,1 +1,3 @@
-document.getElementById("contact-button").onclick = window.location="#contact";
+function contact(){
+    window.scrollTo(0, document.body.scrollHeight);
+}

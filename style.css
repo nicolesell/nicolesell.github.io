@@ -74,7 +74,7 @@ nav{
     padding: 1% 2%;
     width:100%;
     border: 1px solid #677E69;
-    position:fixed;
+    position:absolute;
     overflow: hidden;
     background-color: #F4EFEB;
 }
@@ -112,7 +112,6 @@ nav ul li::after{
     display: block;
     margin: auto;
     transition: 0.5s;
-
 }
 
 nav ul li:hover::after{
